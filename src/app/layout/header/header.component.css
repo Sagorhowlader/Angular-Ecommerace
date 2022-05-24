@@ -1,0 +1,10 @@
+.spacer{
+  flex: 1 1 auto;
+}
+.cart-icon {
+  margin-right: 20px;
+}
+.home-icon{
+  text-decoration: none;
+  color: aliceblue;
+}

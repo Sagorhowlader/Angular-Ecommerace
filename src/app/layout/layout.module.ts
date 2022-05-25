@@ -8,7 +8,7 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
 import { HomeComponent } from './home/home.component';
-import { MatCarouselModule } from '@ngmodule/material-carousel';
+import { MatCarouselModule } from 'ng-mat-carousel';
 import { LayoutRoutingModule } from './layout-routing.module';
 import {MatBadgeModule} from "@angular/material/badge";
 

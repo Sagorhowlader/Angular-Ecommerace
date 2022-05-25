@@ -1,8 +1,10 @@
 <mat-toolbar color="primary" class="mat-elevation-z6">
-  <a routerLink="home" class="home-icon"><mat-icon>add_shopping_cart</mat-icon>E-commerce</a>
+  <a routerLink="home" class="link-text">
+    <mat-icon>add_shopping_cart</mat-icon>
+    E-commerce</a>
   <div class="spacer"></div>
   <a mat-button>Categories</a>
-  <a mat-button>About Us</a>
+  <a mat-button class="link-text" routerLink="about">About Us</a>
 
   <button class="cart-icon" mat-mini-fab color="primary" matBadge="8" matBadgePosition="before" matBadgeColor="warn">
     <mat-icon>add_shopping_cart</mat-icon>
